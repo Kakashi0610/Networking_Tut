@@ -1,0 +1,39 @@
+
+The layers in the OSI Reference model are :
+1. Application Layer
+2. Presentation Layer
+3. Session layer
+4. Transport Layer
+5. Network layer
+6. Data Link Layer
+7. Physical Layer
+
+
+1. Application Layer : 
+
+- Used as an app or an platform by which the process of data transfer is being initiated.
+
+The services provided by Application layer are : 
+
+1. File Transfer and Access Method (FTAM) : Here the user can send/receive a file from the endpoint node. It also enables the first node to 
+                                            access the data present in the second node.
+2. Mail services : The transfer of data via mailing applications is done by the Application Layer.
+3. Directory Services : The ability to access the data worldwide via any communication medium is known as Directory services.
+
+Presentation Layer : The meaning and the representation of the data that is being transfered is checked by the Presentation layer. The 
+semantics(representation in bits)and the syntax(consists of what the bits contain) part is done by Presentation Layer.
+
+The presentation layers services are as follows : 
+1. Translation : The data is translated to the language which is readable and understandable to the end user.
+2. Encryption: It is used to convert the data in an  unknown format which can be only accessed by the sender and receiver, saving the data 
+from the attackers.
+Compression : The task of reducing the unnecessary data bytes from the transmitted data is known as Compression. Compression is mainly done 
+in the data which is present in multi-media format.
+
+
+Session Layer : The session layer is used to establish, Maintain and Synchronize the interaction between two communication devices.
+
+The roles of the Session layer are : 
+1. Dialogue control : the dialogue control ensures the communication between two networks is done in half duplex (one way communication) or Full 
+duolex (two way communication)
+2. Synchronization

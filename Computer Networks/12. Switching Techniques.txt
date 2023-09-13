@@ -1,0 +1,89 @@
+
+Switching is used for selecting the best route for the data transmission 
+of end device when there are multiple devices.
+
+It is often done in One to One Connection.
+
+Various typs of switching are :
+
+
+1. Circuit Switching
+2. Message Switching
+3. Packet Switching
+
+
+1. Circuit Switching : 
+
+- Dedicated path established between sender and receiver.
+- Before data transfer, a connection will be established first.
+ 
+Threephases of Circuit Switching :
+
+1. Connection establishment
+2. Data transfer.
+3. Connection ending / Disconnection.
+
+Example : 
+
+1. Connection Establishment : Person dials the telephone number to call.
+2. Data transfer : Communication between the data sender and receiver via
+                   phone call.
+3. Disconnection : Ending the call.
+
+
+2. Message Switching :
+
+- Store aand forward mechanism.
+- Each intermediary node store and forward mechanism until it reaches the 
+  receiver.
+- Not used for realtime operations like Call, video call, video streaming.
+
+SAF = store and forward
+
+Sender     SAF         SAF             SAF                 SAF               SAF
+Node -->--Switch -->--Router -->-- Internet Cloud -->-- Webserver -->-- chat enviornment
+
+
+3.Packet Switching :
+
+- The internet uses the packet Switching technique for data transfer.
+- The message is divided into smaller segments called as "Packets".
+- These packets are individually sent via data transfer connection to end 
+  devices. 
+- Each data packet has sender and receiver IP address.
+- It also includes the serial number according to the sequence of data.
+  This ensures the data packets are sent in order and missing packets can
+  can also be recognized and traced.
+- There are 2 approaches in Packet Switching :
+
+a. Datagram Packet Switching Approach.
+b. Virtual Circuit Packet Switching Approach.
+
+a. Datagram Packet Switching Approach :
+
+- It is also known as Connectionless Switching.
+- Each message is broken into smaller packet known as Datagrams.
+- These datagrams consists of destination address of the receiver.
+- The indermediary nodes uses this info to transfer the data via 
+  different routes.
+- Each node uses a different path than previous node to the receiver. Due 
+  to this, the datagrams might be sent rearranged and sent to the receiver.
+  But the receiver arranges itin sent order and passes to the End node.  
+
+
+b. Virtual Circuit Packet Switching Approach :
+
+- It is also known as Circuit-Oriented Switching.
+- Here the route is set via using the Intermediary nodes to packets transfer.
+- Data is sent via same route from the sender to the destination. 
+
+
+
+
+
+
+
+
+
+
+

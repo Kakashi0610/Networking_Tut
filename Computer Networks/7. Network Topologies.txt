@@ -1,0 +1,28 @@
+
+4. Mesh Topology :
+
+- Nodes are connected to each other directly. No limitations.
+- Scalabe and Fault tolerant.
+- Peer to Peer architecture.
+- All nodes have equal access to each other.
+- Secure - since nodes carry data to other nodes directly.
+
+Advantages :
+
+- Reliable and secure.
+- scalable and fault tolerant.
+
+Disadvantages :
+
+- Issues with broadcasting, since all nodes will broadcast and will cause data redudancy.
+- Expensive due to the use of links connected to each node.
+- Impractical for large number of networks.
+
+
+
+5. Hybrid Topology : 
+
+The combination of two or more topologies connected to each other is called as Hybrid Topology.
+
+
+

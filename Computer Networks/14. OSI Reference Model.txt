@@ -1,0 +1,45 @@
+
+OSI Reference Model :
+
+Layering : layering means decomposing the bigger problems into small manageable
+           problems. It is done for easing the troubleshooting process.
+
+The purpose of the OSI reference model is to ensure smooth network communication 
+between two different OS in different nodes.
+
+The Layers in OSI Reference model are :
+
+1. Physical layer
+2. Datalink layer.
+3. Network layer
+4. Transport layer
+5. Session layer
+6. Presentation Layer.
+7. Application Layer.
+
+
+The shortcut for remembering the OSI Reference model :
+
+Please  - Physical layer
+do - Datalink Layer
+not - Network Layer
+throw - Transport Layer
+sausage - Session Layer
+pizza - Presentation Layer
+away - Application Layer
+
+The Conversion of the data in the encrypted form to prevent from attackers, is the
+job of the Application to Transport layer. The data can be accessed from Network,
+Datalink and Physical Layer. When the data transverses from Intermediary nodes,its in
+the encrypted format, but when it reaches the receiver, its again in the original
+decrypted format.
+
+Structure of OSI :
+
+Node -->-- router -->-- application -->-- router -->-- physical -->-- Node
+                        to physical                  to application
+
+Where application being the most targetted and Physical meaning the most secure 
+from attackers.
+
+ 

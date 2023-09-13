@@ -1,0 +1,61 @@
+Basics of Port addressing :
+
+As per now : 
+Ip address - connection between two routers
+MAC address - connection from LAN from Switch to Routers
+now,
+Port address : Connection from switches to the specific node
+
+(youtube, media player)
+process ---->---->---- switch/hub --->--- Router
+Port                    MAC               IP
+
+Example :
+Reaching To Chennai from Mumbai - IP address via Routers
+Reaching to the Building in Chennai - MAC Address via Switch
+Reaching to our house : Port address via Switch to nodes
+
+
+Port Address or Port Numbers :
+
+- In a node, many processes may be running.
+- Data whichis sent/received must reach the right process.
+- The Port numbers/address are the identification terms of different procceses in a computer.
+- Port = communication End point
+- Hence, they are called as Port address which elaborates endpoint address/numbers.
+- The port numbers are fixed or dynamically assigned. (0 - 65535)
+
+
+fixed port numbers - 25 , 80 , 45 , etc...
+dynamic port numbers assigned by OS - 21345, etc...
+
+Example : 
+
+Internet Explorer -----
+                      |
+Mozilla Firefox   -----
+                      |--->--- Node --->---Switch --->---Router --->--- Internet Cloud --->--- Webserver (Youtube)
+Media Player      -----
+                      |
+Google Chrome :   -----
+(To access Youtube)    
+
+
+All the processes ,firefox - chrome - media player, will have a unique Port Address to access the various services via Networking and avoid collisions for transfer
+of the data from one Endpoint ot anothrt Endpoint.
+
+Port number of the process will request to port numberof the following service provided by the Internetand Internet will accept and the data to the following port 
+address which requests the data.
+
+To see port addressing our home devices,
+click start > search > resmon(resource monitoring) > List of all the processes that are currently running in the OS will appear.
+ 
+
+3 key points to remember :
+
+Before 
+1. Attach source IP address to destination Ip address - so that the Network gets identified.
+2. Attach source MAC address to destination MAC address - so that Host gets identified.
+3. Attach source Port address to destination Port address - so that Process gets identified.
+
+

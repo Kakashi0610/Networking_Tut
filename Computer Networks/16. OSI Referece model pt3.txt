@@ -1,0 +1,97 @@
+
+Transport layer :
+
+- It is used for the Process to process the delivery of the entire message.
+Example :
+If a user uses chrome for sending the mail, the application is called as the 
+platform and the process carried out on the platform is the process.
+That unique process info is carried by the transport layer to the destination,
+where the request is granteed or task is done.
+
+chrome ----
+          |
+media  ----
+          |-- Node -->-- switch -->-- router -->-- Internet Cloud -->-- Web Serv.  
+whatsapp --
+          |
+calculator-
+
+<--------------------------------Transport layer------------------------------>
+                 (Carries all the process info to the end user)
+
+
+The services provided by Transport layer :
+
+1. Port addressing.
+2. End to End Flow control - synchronize speed of senders sendng and receivers
+	                     receiving.
+3. Connection Control (either like telephone, w connection or connection less)
+4. Error control
+5. Segmentation and Reassembly (breakimg big messages and reassembling them.)
+
+
+Network layer : 
+
+- Responsible for the delivery of the data from source network to the 
+  destination network.
+
+The services offered by the network layer are : 
+
+1. Logical Addressing - involves with the IP address for data communication
+2. Routing.
+
+
+Data Link layer :
+
+- The task of the data link layer is to move the data packets from one node to 
+  another node.
+
+The services provided b the Data Link layer are :
+
+1. Access Control - which device has requested the access for the service. 
+2. Flow Control
+3. Framing - Groups bits of 0's and 1's
+4. Physical Addressing - Involved between the MAC address of two switches.
+5. Error Control
+
+
+Physical Layer :
+
+- After framing is done in the data Link layer, Physical Layer is responsible 
+  for the transmission of bits over the data communication medium.
+
+- There are two types of medium, Wired medium and Wireless medium. It also
+  provides electrical and mechanical specifications based on the type of medium.
+
+- If its a wired medium, the data issent via mechanical specification like wires, 
+  Fibre Optic can send the data in light impulses.
+
+- If its a wireless medium, The data is sent via Signals in the form of waves,
+  tht can be caught by the receiver in the Intermediary devices. 
+
+Services offered by the Physical layer are :
+
+1. Physical characteristics of the media - To checkif medium is wired or wireless
+2. Representation of bits - how 1's and 0's are converted into signals.
+3. Data rate - the speed to data packets to be sent and to be fetched as well
+4. Synchronization of Bits - Clock between sender and rcvr transmission to sync
+5. Line Configuration - whether its Point to point or point to many nodes.
+6. Physical topology - checks whether its a ring topology,star, mesh, bus, etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
